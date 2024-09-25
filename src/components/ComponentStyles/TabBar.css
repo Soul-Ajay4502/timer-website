@@ -1,0 +1,93 @@
+/* TabBar.css */
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  border: 1px solid rgba(58, 134, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(58, 134, 255, 1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 100px !important;
+  font-family: 'Archivo';
+  font-weight: 600;
+}
+
+.tab-button.active {
+  border-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Archivo';
+  padding: 5px 5px 5px 5px;
+    padding-right: 20px;
+}
+
+.tab-button:not(.active) {
+  border-color: rgba(54, 24, 99, 1);
+  color: rgba(54, 24, 99, 1);
+  border-width: 1px;
+  font-family: 'Archivo';
+  padding: 5px 5px 5px 5px;
+    padding-right: 20px;
+}
+
+.tab-icon {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 728px) {
+  .tab-container {
+    flex-wrap: wrap;
+  }
+
+  .tab-button {
+    display: flex;
+    align-items: center;
+    /* padding: 3px 25px 3px 25px; */
+    /* padding-left: 10%;
+padding-right:10% ; */
+    margin: 0 !important;
+    border: none !important;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(58, 134, 255, 1);
+    border-radius: 0 !important;
+    font-size: 14px;
+  }
+
+  .mob-tab {
+    background-color: white !important;
+    color: #241042 !important;
+    width: 33%;
+
+  }
+
+  .mob-tab-active-hr {
+    border-bottom: 3px solid #3A86FF !important;
+  }
+
+  .mob-tab-active-LineManager {
+    border-bottom: 3px solid #482084 !important;
+
+  }
+
+  .mob-tab-active-Employee {
+    border-bottom: 3px solid #FF8100 !important;
+
+  }
+
+  .mob-not-activ {
+    border-bottom: 3px solid #F3F3F5 !important;
+
+  }
+
+
+}

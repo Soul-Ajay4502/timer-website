@@ -1,0 +1,243 @@
+/* Footer css */
+
+.footer {
+    background: linear-gradient(
+      to bottom right,
+      rgba(23, 12, 52, 1),
+      rgba(72, 32, 132, 1),
+      rgba(58, 134, 255, 1)
+    );
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 120px 0px 120px 0px;
+}
+
+.footer__container {
+    margin: 0 auto;
+    padding: 0px 160px;
+}
+
+.footer__top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.button-icon {
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer__logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    height: 40px;
+}
+
+.footer__logo-text {
+    font-size: 22.34px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+    font-family: 'MonaSansBold', sans-serif;
+    font-weight: 600;
+}
+
+.footer__subscription-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 135px;
+}
+
+.footer__subscription-text {
+    margin: 0;
+    font-size: 20px;
+    font-family: "MonaSansBold";
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.footer__subscription-container > *:not(.footer__subscription-text) {
+    margin-top: 10px;
+}
+
+.footer__info-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.footer__info-section {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.footer__info-section-image {
+    margin: 0;
+    text-align: left;
+}
+
+.footer__section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+    line-height: 26px;
+}
+
+.footer__info-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 24px 0 0;
+    font-size: 16px;
+    font-family: "MonaSansLight";
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(199, 197, 206, 1);
+    line-height: 24px;
+}
+
+.footer__info-list li {
+    margin: 5px 0;
+}
+
+.footer__app-links {
+    display: flex;
+    gap: 15px;
+    margin: 24px 0 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__app-store-img {
+    height: 64px;
+    width: auto;
+}
+
+.footer__divider {
+    height: 1px;
+    background-color: rgba(105, 72, 154, 0.44);
+    margin-top: 48px;
+}
+
+.footer__certification-logos {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.footer__bottom-section {
+    margin-top: 12px;
+}
+
+.footer__legal-links {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.footer__legal-link {
+    color: rgba(199, 197, 206, 1);
+    text-decoration: none;
+    font-size: 12.8px;
+    font-weight: 400;
+    font-family: "MonaSansMedium";
+}
+
+.footer__legal-link:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright-text {
+    margin-top: 20px;
+    font-size: 12.8px;
+    color: rgba(199, 197, 206, 1);
+    font-family: "MonaSansMedium";
+    text-align: center;
+}
+
+.footer__language-selector {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 70px;
+    padding: 4px;
+    margin-top: 11px;
+    list-style: none;
+    z-index: 10;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    color: rgba(111, 104, 129, 1);
+    border-radius: 8px;
+    font-family: 'MonaSansBold', sans-serif;
+    font-weight: 200;
+    font-size: 12.8px;
+    text-align: center !important;
+  }
+ 
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #241042;
+    text-align: center;
+
+  }
+
+  .button {
+    border-radius: 100px;
+    padding: 6.5px 10px 6.5px 12px;
+    align-items: center;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    font-size: 9.9px;
+    border-width: 0px;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'MonaSansMedium', sans-serif;
+}
+  
+  .button-icon {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+  }
+ 
+  .footer__label {
+    font-family: "MonaSansBold", sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9.8px;
+    letter-spacing: 12%;
+    color: rgba(191, 186, 255, 1);
+    margin-left: 5px; 
+    vertical-align: super; 
+  }

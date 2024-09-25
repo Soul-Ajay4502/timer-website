@@ -1,0 +1,85 @@
+/* EmployeeBoxContainer styling */
+.employee-box-container {
+    position: relative;
+    width: 550px;
+    height: auto;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/* Layer styles */
+.employee-box-container .employee-box-layer {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    border-radius: 32px;
+}
+
+.employee-box-container .employee-layer1 {
+    top: 70px;
+    left: -50px;
+    z-index: 0;
+    padding: 45px;
+    height: 100%;
+}   
+
+.employee-box-container .employee-layer2 {
+    top: 40px;
+    left: -15px;
+    z-index: 1;
+    padding: 45px;
+    height: 100%;
+}
+
+.employee-box-container .employee-layer3 {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 197, 138, 1);
+    left: 20px;
+    padding: 45px;
+    height: 100%;
+}
+
+/* Paragraph text styling */
+.employee-box-container .employee-layer3 p {
+    font-weight: 400;
+    font-family: 'MonaSansLight';
+    font-size: 16px; 
+    line-height: 24px; 
+    color: rgba(67, 58, 91, 1);
+}
+
+/* Custom horizontal line style */
+.employee-box-container hr.employee-custom-line {
+    background-color: rgba(255, 197, 138, 1); 
+    height: 1px;
+    border: none;
+    margin: 15px 0; 
+}
+
+@media only screen and (max-width: 728px) {
+    .employee-box-container .employee-layer3 {padding: 20px;height: 100%;}
+    .employee-box-container .employee-layer1 {
+      top: 15px;
+      left: 10px;
+      height: 100%;
+    
+    }
+    
+    .employee-box-container .employee-layer2 {
+      top: 10px;
+      left: 15px;
+      height: 100%;
+    }
+
+    .employee-box-container hr.employee-custom-line {
+        border: none;
+        height: 1px;
+        background: none;
+        margin: 15px 0;
+        background-image: linear-gradient(to right, rgba(221, 220, 222, 1) 20%, transparent 20%);
+        background-size: 20px 1px;
+    }
+}

@@ -1,0 +1,85 @@
+/* HRBoxContainer styling */
+
+.hr-box-container {
+  position: relative;
+  width: 550px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Layer styles */
+.hr-box-layer {
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  border-radius: 32px;
+}
+
+.hr-layer1 {
+  top: 90px;
+  padding: 45px;
+  left: 100px;
+  z-index: 0;
+  height: 100%;
+
+}
+
+.hr-layer2 {
+  padding: 45px;
+  top: 50px;
+  left: 55px;
+  z-index: 1;
+  height: 100%;
+}
+
+.hr-layer3 {
+  position: relative;
+  z-index: 2;
+  padding: 45px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(164, 199, 255, 1);
+  height: 100%;
+
+}
+
+/* Paragraph text styling */
+.hr-layer3 p {
+  font-weight: 400;
+  font-family: 'MonaSansLight';
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(67, 58, 91, 1);
+}
+
+/* Custom horizontal line style */
+hr.hr-custom-line {
+  background-color: rgba(164, 199, 255, 1);
+  height: 1px;
+  border: none;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 728px) {
+  .hr-layer3 {padding: 20px;height: 100%;}
+  .hr-layer1 {
+    top: 11px;
+    left: 10px;
+    height: 100%;
+  
+  }
+  
+  .hr-layer2 {
+    top: 6px;
+    left: 3px;
+    height: 100%;
+  }
+  hr.hr-custom-line {
+    border: none;
+    height: 1px;
+    background: none;
+    margin: 15px 0;
+    background-image: linear-gradient(to right, rgba(221, 220, 222, 1) 20%, transparent 20%);
+    background-size:20px 1px; 
+  }
+  
+}
