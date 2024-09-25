@@ -1,6 +1,6 @@
 # Introdo Project - Techware Lab Technical Evaluation
 
-**Developer**: Ajayraj A R 
+**Developer**: Ajayraj A R     
 **Role**: Full Stack Developer  
 **Project**: Timer and auto switching tab
 
@@ -99,4 +99,4 @@ The goal is to create two specific interactive features for a website called **I
 
 ## Contact Information
 
-For any queries or feedback, please feel free to contact me at joelpjacob3@gmail.com
+For any queries or feedback, please feel free to contact me at rajay5767@gmail.com
