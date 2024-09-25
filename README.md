@@ -1,14 +1,13 @@
 # Introdo Project - Techware Lab Technical Evaluation
 
-**Developer**: Joel P Jacob  
-**Role**: Front End Developer  
-**Project**: Technical Evaluation for Techware Lab
+**Developer**: Ajayraj A R 
+**Role**: Full Stack Developer  
+**Project**: Timer and auto switching tab
 
 ---
 
 ## Project Overview
-
-This project was developed as part of the technical evaluation for the **Front End Developer** role at **Techware Lab**. The goal is to create two specific interactive features for a website called **Introdo**:
+The goal is to create two specific interactive features for a website called **Introdo**:
 
 1. **Tab Switching Feature**  
 2. **Unlock The Perks Section**
